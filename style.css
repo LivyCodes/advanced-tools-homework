@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
@@ -96,4 +96,11 @@ p {
 }
 .border {
   box-shadow: var(--box-shadow);
+}
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
